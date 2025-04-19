@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects — raptorbytes.org">
+    <title>Projects — raptorbytes.org</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #0f0f0f;
+            color: #ffffff;
+            font-family: 'IBM Plex Sans Mono', monospace;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0.3em 0;
+            font-weight: 600;
+        }
+
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #4fc3f7;
+            color: #0f0f0f;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .project-link:hover {
+            background: #1e1e1e;
+            color: #4fc3f7;
+            transform: scale(1.05);
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background: #1e1e1e;
+            color: #4fc3f7;
+            text-decoration: none;
+            border: 2px solid #4fc3f7;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: all 0.2s ease;
+        }
+
+        .back-button:hover {
+            background: #4fc3f7;
+            color: #0f0f0f;
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 { font-size: 2.5em; }
+            .project-link { font-size: 1em; padding: 12px 25px; }
+            .back-button { font-size: 0.9em; top: 10px; left: 10px; }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 { font-size: 2em; }
+            .project-link { font-size: 0.9em; padding: 10px 20px; }
+            .back-button { font-size: 0.8em; padding: 8px 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://raptorbytes.org" class="back-button">Back to Home</a>
+
+    <h1>RaptorBytes Projects</h1>
+
+    <div class="project-list">
+        <a class="project-link" href="https://memes.raptorbytes.org">Memes Archive</a>
+        <!-- Add more projects here as you create them -->
+        <a class="project-link" href="#">Project 2 (Coming Soon)</a>
+        <a class="project-link" href="#">Project 3 (Coming Soon)</a>
+    </div>
+
+</body>
+</html>
